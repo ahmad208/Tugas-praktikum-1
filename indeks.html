@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form</title>
+  
+  <meta name="theme-color" content="#7952b3">
+ 
+</head>
+<body align = center class="bg-light">
+
+  
+    <img class="d-block mx-auto mb-4" src="kha.jpg" alt="" width="300px">
+    <h2>Form Nilai</h2>
+
+      <form action="form_nilai.php" method="GET">
+     <input type="hidden" name="proses" value="">
+            
+            <label for="firstName" class="form-label">Nama Lengkap</label>
+            <input id="nama_lengkap" required="" name="nama" placeholder="Masukan Nama Lengkap" type="text" class="form-control">
+                
+            <div class="col-sm-12">
+            <label for="firstName" class="form-label">Mata Kuliah</label>
+            <select required="" name="matkul" class="form-control">
+                <option value=""> Pilih Matkul </option>
+                <option value="1">BHS Inggris</option>
+                <option value="2">Basis Data</option>
+                <option value="3">Jar Kom</option>
+                <option value="4">UI/UX</option>
+                <option value="5">Pem Web</option>
+                 
+                </select>
+                
+              </div>
+
+              <div class="col-sm-12">
+                <label for="firstName" class="form-label">Nilai UTS</label>
+                <input id="nilai_uts" required="" name="nilai_uts" placeholder="Masukan Nilai UTS" type="number" class="form-control">
+                
+              </div>
+
+              <div class="col-sm-12">
+                <label for="firstName" class="form-label">Nilai UAS</label>
+                <input id="nilai_uas" required="" name="nilai_uas" placeholder="Masukan NIlai UAS" type="number" class="form-control">
+                
+              </div>
+
+              <div class="col-sm-12">
+                <label for="firstName" class="form-label">Nilai Praktik</label>
+                <input id="Nilai Praktik" required="" name="nilai_tugas" placeholder="Masukan NIlai Praktik" type="number" class="form-control">
+                
+              </div>
+
+              <button class="w-100 btn btn-dark btn-lg" type="submit">Sumbit</button>
+            </form>
+          </div>
+        </div>
+      </main>
+  </body>
+  </html>
